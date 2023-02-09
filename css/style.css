@@ -1,0 +1,172 @@
+body{
+
+    background-color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+
+}
+
+.container_all{
+    background-color: white;
+   margin-left: 120px;
+   margin-right: 120px;
+   
+
+    }
+
+/*Global*/
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  
+    
+}
+/*header*/
+
+#resturant{
+    background-image: url(../images/rest3.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    }
+    
+    /* brand section */
+    .brand{
+        width: 100px;
+        padding-top: 20px;
+        
+
+    }
+    .brand img{
+        width: 100%;
+        height: 100px;
+    }
+
+    .brand_name{
+        text-decoration: none;
+        text-transform: capitalize;
+        padding-top: 25px;
+        margin-left: 15px;
+    }
+    
+    /* nav list */
+    .nav_menu{
+      display: flex;
+      justify-content: flex-end;
+      width: 50%; 
+      margin-bottom: 40px;  
+
+    }   
+
+    .nav_menu li{
+     display: inline;
+     padding: 10px;
+    
+    }
+    .nav_menu li a:hover{
+         text-decoration: underline;
+         color: coral;
+        
+         }
+ 
+    .nav_menu li a{
+        color: white;
+        text-decoration: none;
+
+
+    }
+
+.welcome{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ padding: 100px;
+
+ 
+}
+.welcome_1{
+  
+    text-decoration:none;
+    text-transform: capitalize;
+}
+
+ .order button{
+     width: 100px;
+     padding: 10px;
+     margin: 10px;
+     font-size: 18px;
+     border-width: 2px;
+     border-color: green;
+     transition-duration: 0.4s;
+     color: green;
+     text-transform: capitalize;
+     
+}
+ .order button:hover{
+     background-color: green;
+     color: white;
+ }
+
+.food{
+    margin: 0 20px;
+}
+      
+ .food img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  }
+
+.food_name{
+    font-size: 12px;
+    color: blue;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+.footer_img{
+ width: 50%; 
+ margin-left: 25px;
+ margin-top: 70px;  
+}
+
+.footer_img img{
+    width: 500px;
+    height: 200px; 
+}
+.footer_message{
+    
+    padding-right: 200px;
+    padding-left: 30px;  
+    padding-top: 50px;
+}
+.read_more{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+ .read_more button{
+     width: 150px;
+     padding: 10px 10px;
+      
+ }
+ .copy{
+     margin-top: 70px;
+     margin-left: 500px;
+
+ }
+
+
